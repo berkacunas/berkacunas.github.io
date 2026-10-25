@@ -13,5 +13,3 @@ Upcoming content:
 * **From the Archive (2005):** DivXForever - DVD to DivX Encoding Guide with Gordian Knot.
 
 *Detailed documentation and project source codes will be published here soon.*
-
-[https://berkacunas.github.io/pdf/divx-rehberi.pdf](https://berkacunas.github.io/pdf/divx-rehberi.pdf)

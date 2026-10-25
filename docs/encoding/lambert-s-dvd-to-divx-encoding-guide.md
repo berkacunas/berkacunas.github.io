@@ -51,3 +51,4 @@ Yukarıdaki resimdeki gibi `Replace [space] with “_” in Project Title (recom
 
 ![robot4rip preferences pgc=rip](./images/dvd-to-divx-encoding-guide/05-robot4rip-preferences-pgc_rip.png)
 
+..to be continued...

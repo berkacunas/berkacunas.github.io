@@ -103,4 +103,75 @@ Bunun için yukarıdaki resimde ilk 5 numara dolu, 6 numarayı seçelim. Bir üs
 
 Yukarıdaki gibi ana ekranda, transcode etmek istediğimiz ses dosyasına sağ tıklayıp listeden çevireceğimiz formatı seçeceğiz.
 
+Tekrardan yukarıda 9 tane numara koyduğum resme dönersek;
+1, 2, 3 ve 4 numaraları anlattım. 5 numara ile transcode edeceğimiz orijinal dosyayı dönüştürme işlemi sonrası sildirebiliriz. Bence boş kalmasında fayda var. Gerekirse manuel olarak silmek daha fonksiyonel olacak.
 
+7 numaralı ayarda besweet.exe’nin yerinin doğru gösterildiğinden emin oluyoruz. 8 numara seçili olacak. 9 numaralı yerde ise transcode işlemi öncesi, dönüştürme için seçilecek orijinal dosyanın 6 kanallısı ve 2 kanallısı 2 ayrı dosya olarak bir arada mevcut olabilir. Dönüştürmede, orijinal dosya olarak kaç kanallı sese sahip dosyayı tercih edeceğimizi belirliyoruz. 
+
+Yukarıdaki ayarlardan sonra ok deyip robot4rip’in ana ekranına dönüyoruz. Şimdiye kadar ki ayarlar, genelde bir kez, robot4rip’in ilk kurulumunda yapılır. Ardından gerekmedikçe bu ayarlara dönmemize gerek yok.
+
+Şimdi Robot4rip’i, Gordian Knot’ta yapacağımız encoding işlemi öncesi gerekli malzemeleri hazırlaması için kullanmaya başlayabiliriz.
+
+Bu malzemeler nelerdir: 
+
+- DVD’deki vob dosyaları
+- ifo dosyasını aldıktan sonra oluşturulacak proje dosyaları: 
+	- .d2v dosyası
+	- ses dosyası (gerekirse transcode edilmiş ses dosyası ile birlikte)
+	- vobsub altyazı dosyaları.
+
+DVD’yi DVD-ROM’a takıyoruz.
+
+![robot4rip scan drive](./images/dvd-to-divx-encoding-guide/15-robot4rip-scan-drive.png)
+
+Yukarıdaki tarama ile DVD’yi gösteriyoruz. (Eğer DVD dosyaları HDD’de bulunuyorsa scan komutundan scan folder diyerek buradan HDD’deki dosyaları göstermemiz yeterli)
+
+DVD’yi gösterdikten sonra robot4rip DVD içeriğini aşağıdaki şekilde görüntüleyecek.
+
+![robot4rip main screen labeled](./images/dvd-to-divx-encoding-guide/16-robot4rip-main-screen-labeled.png)
+
+`1 numaralı` ayar otomatik yapılıyor. `2 numaralı ayar`da DVD’den almak istediğimiz ses dosyalarının yanındaki kutucuklara işaret koyuyoruz. `3 numara`da oluşturulacak VobSub dosyasında bulunmasını istediğiniz altyazı dillerini seçiyorsunuz. (Kendi rip’lerimde hepsini seçiyorum.) 4-5-6-7-8-9-10 ve 11 numaralı ayarlar birer butondur. Bunlara basıp o özelliği açabilir veya kapatabilirsiniz. Bunların ayarlarını, hangisinin varsayılan olarak açık olup olmayacağını az önce Preferences’ta Defaults sekmesi altında yapmıştık. Sırayla, `4 numara` kaynağın DVD olduğunu gösteriyor, `5 numara` açık olacak, `6 numara` ile robot4rip işleme başlayıp DVDDecrypter ile DVD’yi HDD’ye kaydettikten sonra DVD2AVI ile d2v dosyası yaratılacak ve DVD’deki sesler alınacak. `7 numara` chapters, bu özellik kapalı olacak. Vobsub’ı çalıştırıp altyazıları oluşturması için `8 numara` açık olacak. Eğer DVD’deki ses dosyalarından birini transcode edeceksek `9 numara` açık olacak ama mesela DVD’deki AC3 5+1 sesi kullanacaksak `9 numara`yı üzerine bir kez tıklayarak kapatın. DVD’deki ses dosyalarını AC3 5+1 dahil, 6 numara, DGIndex’i çalıştırıp demux edecek. `10 numarada`ki finalize kapalı olacak. `12 numarada`ki yolları ve özellikle HDD’nizdeki boş yer miktarını kontrol edin. 5 ile 10 GB arası bir yer gerekli olacak. Nihayetinde 11 numaradaki Start butonuna basarak robot4rip’i çalıştıralım.
+
+İşlem başladıktan sonra bilgisayarın özelliklerine bağlı olarak sistemi biraz yavaşlatabilir. Bundan sonra otomatik olarak DVDDecrypter, DGIndex, VobSub ve 9 numaradaki encode audio’yu seçtiyseniz besweet işlem yapacaklar. 
+
+İşlem tamamlandığında yapılan rip ile ilgili iki klasör yaratılmış olacak. İçlerine baktığımızda şunları göreceğiz:
+
+1. **rips klasörü**
+
+![rips folder](./images/dvd-to-divx-encoding-guide/17-rips-folder.png)
+
+2. **projects klasörü**
+
+![projects folder](./images/dvd-to-divx-encoding-guide/18-projects-folder.png)
+
+**Encoding öncesi malzememiz hazır.**
+
+Robot4rip ile d2v dosyamızı analiz ediyoruz:
+
+![robot4rip analyze d2v](./images/dvd-to-divx-encoding-guide/19-robot4rip-analyze-d2v.png)
+
+Proje klasörümüzün içindeki .d2v dosyasını gösterelim.
+
+Analiz sonrası log’da, aşağıdaki türde bir mesaj belirecek. Burada önemli olan NTSC olup olmadığı ve filmin FPS’sini öğrenmemizdir.
+
+![robot4rip messages](./images/dvd-to-divx-encoding-guide/20-robot4rip-messages.png)
+
+Robot4Rip’i artık kapatabiliriz.
+
+---
+
+Gordian Knot’u çalıştırıyoruz.
+
+![start gordian knot](./images/dvd-to-divx-encoding-guide/21-start-gordian-knot.png)
+
+![gordian-knot-bitrate-screen-labeled](./images/dvd-to-divx-encoding-guide/22-gordian-knot-bitrate-screen-labeled.png)
+
+
+
+
+![]()
+
+
+
+
+![]()

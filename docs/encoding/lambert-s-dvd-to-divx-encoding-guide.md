@@ -205,4 +205,226 @@ Gordian Knot > Resolution sekmesine geçelim.
 
 ![gordian knot resolution screen labeled](./images/dvd-to-divx-encoding-guide/28-gordian-knot-resolution-screen-labeled.png)
 
-to be continued...
+İşaretlenmiş 10 adet ayarımız var. Hemen başlayalım. 
+
+`1 numaralı` ayarda, DVD’nin formatını seçiyoruz. Bunu, aynı zamanda robot4rip’te `Tools > Analyze d2v` komutunu çalıştırdıktan sonra filmin FPS’si ile birlikte `messages` kısmında görmüştük. Benim projemde `Source is not NTSC` mesajını vermişti. Dolayısıyla bende PAL olması gerektiğini öğrenmiştik. 
+
+`2 numaralı` ayarda, rip’lemekte olduğumuz film Widescreen (Geniş Ekran – 16:9) mi, Fullscreen (Tam Ekran – 4:3) mi, buna göre seçimimizi yapmamız gerekiyor. Burada yapacağımız yanlış bir seçim filmin aspect ratio’sunun (görüntü oranı) bozuk olmasına neden olacak. DVD filmlerin kutusunun arkasında filmin “Tam Ekran” veya “Geniş Ekran” olduğu belirtilmiştir. Bunun dışında filmimizin görüntü oranını, DGIndex ile birinci vob dosyasını göstererek ve F5 ile preview yaparak DGIndex penceresinin sağında açılacak pencereden öğrenebiliriz. 
+
+`3 numaralı` ayara geçersek, burada filmin etrafındaki siyah bantları temizleyeceğiz. Bunu tamamen deneme/yanılma ile manuel yapabileceğimiz gibi kendimizi geliştirdikçe siyah bantı makaslamak için kendimizce teknikler de geliştirebiliriz. Kendi kullandığım teknik şöyle: `Auto Crop`’a basalım, fazlalıkları temizlesin. Ardından `Smart Crop All`’u seçelim. `4 numara` ile gösterdiğim yerde yazan değerleri bir kenara not alalım. Auto Crop’un altındaki `Pixel` radyo butonunu seçelim ve elle, demin 4 numarada gözüken ama `Pixel`’i seçtikten sonra değişen değerleri girelim. Sonrasında aşağıdaki kurallara da uyacak şekilde manuel olarak değerleri değiştirebiliriz. 
+
+Bu aşamada görüntüdeki siyah bantı makaslarken uymamız ve tutturmamız gereken kurallar ve ayarlar var. Bu kısım acemi ripper’ları en çok zorlayacak kısım olduğu için uyulması şart kural ve ayarları madde madde yazıyorum:
+
+1. Pixel butonu seçiliyken, 4 numaradaki yukarı sol, sağ, üst ve alt crop değerlerini, yanlarındaki artır ve düşür butonlarını kullanarak görüntüde siyah bant kalmışsa temizleyelim, görüntünün içine fazla girilmişse değeri geri çekelim.
+2. 4 numaradaki crop ayarını yaparken 5 numaradaki width ve height değerlerinin her ikisinin de **dörde bölünebilir** kalmasına dikkat edelim.
+3. Crop ayarlarını yaparken 8 numaradaki Aspect Error’ün fazla yükselmemesine dikkat edelim. Kendi rip’lerimde aspect error’ü %0,3’ün üstüne çıkarmamaya dikkat ederim. Nadiren %0,4 olur.
+4. 9 numaradaki değerlerin yazılı olduğu kutucukların kırmızı **olmamasına** dikkat edelim. Bu ikaz rengidir ve kullandığımız çözünürlüğün ekran ebatlarından taştığı anlamına gelir. 
+5. 6 numaradaki çözünürlüğü değiştirmek, 8, 9 ve 10 numaradaki değerleri doğrudan etkileyecektir. Crop’lamanın mantığını ve kurallarını anladıktan sonra aşağıda 6 numaradaki değerlere değineceğim.
+
+Yukarıdaki maddelere dikkat ederek crop işlemini yaparken değiştirdiğiniz ayarları eski haline getirmeniz çok kolay, biraz deneme yapın.
+
+6 numaradaki width x height değeri yapacağımız avi’nin çözünürlüğüdür. Release standart’larına uygun olması için width değerini 512 ile 640 arasında tutmamız gerekir. Çözünürlüğü artırdıkça 10 numaradaki Bits (Pixel * Frame) değeri düşecektir. Bu değer çözünürlük değeri ile ters orantılıdır. 10 numaradaki değeri 0,200’ün altına düşürmemeye çalışmalıyız. Daha kaliteli bir rip’te minimum Bits (Pixel*Frame) değerini 0,220’ye yükseltebiliriz.
+
+Resolution sekmesinin de sonuna geldik. Kendi ayarlarım aşağıdaki gibidir:
+
+![gordian knot resolution final settings](./images/dvd-to-divx-encoding-guide/29-gordian-knot-resolution-final-settings.png)
+
+Gordian Knot’ta sekmelere devam edelim. Options sekmesine geçelim:
+
+Options sekmesindeki ayarlar, codec ayarları ile ilgilidir. İlk sefer ayarlarız ve sonrasında gerekmedikçe ellemeyiz. Ekran görüntüsü aşağıdaki gibidir:
+
+![gordian knot options labeled](./images/dvd-to-divx-encoding-guide/30-gordian-knot-options-labeled.png)
+
+`1 numaradaki` **ITU-R BT.601 Standart**’ının seçili olmaması gerekiyor. Bu ayar seçili kalırsa filmin Aspect Ratio’sunu bozabilir.
+`2 numarada` DivX Codec ayarları mevcut. Filmimizi XviD yapacağımız için `3 numaradaki` First Pass’a tıklayalım.
+
+Codec ayarlarına başlamadan önce belirtmeliyim ki, çıkan her yeni codec versiyonu ile birlikte codec ayarlarının görünüşü değişmektedir. Codec konusu encoding işlemi ile doğrudan ilgili olsa da yeni versiyonlarının takibi ve açıklanması ayrı bir rehber ister. Bu nedenle codec ayarlarımızı bu rehberde **XviD XviD-1.0.3-20122004_Final_Release**’e göre yapacağız. 
+
+XviD ayarlarını resimlerle anlatacağım. Aşağıda kendi kullandığım ayarlar mevcut. First Pass butonuna tıklayarak ayarları aynı şekilde seçelim:
+
+![xvid configuration main screen](images/dvd-to-divx-encoding-guide/31-xvid-configuration-main-screen.png)
+
+Yukarıdaki resimdeki “Profile” ve “Encoding Type” combobox'larında aynı şıkları seçtiğimizden emin olup `1 numara` ile işaretlenen butona tıklayalım.
+
+![xvid configuration profile](images/dvd-to-divx-encoding-guide/32-xvid-configuration-profile.png)
+
+Kontrol edelim, `Quantization Type`, 1 CD yapılacak rip’lerde `H.263`, 1 CD’den fazla rip’lerde `MPEG` olacak. `Level` ve `Aspect Ratio` sekmeleri varsayılan ayarlarıyla kalsın. OK butonuna basıp çıkalım.
+
+Bir üst resimdeki `2 numaralı` butona tıklayalım.
+
+![xvid configuration first pass](images/dvd-to-divx-encoding-guide/33-xvid-configuration-first-pass.png)
+
+Ayarlarımızı yukarıdaki resimdeki ayarlarla kontrol edelim.
+
+İki üst resimdeki `3 numaralı` butona tıklayalım.
+
+![xvid configuration motion](images/dvd-to-divx-encoding-guide/34-xvid-configuration-motion.png)
+
+Ayarlarımız yukarıdaki resimdeki ayarlarla aynı mı, kontrol edelim. İsterseniz Turbo’yu seçebilirsiniz. First Pass ayarlarında Turbo kullanmıyorum.
+
+Ok diyerek First Pass ayarlarından çıkalım ve `Godian Knot > Options` ekranından `XviD > Second Pass` ayarlarına girelim:
+
+![xvid configuration main settings labeled](images/dvd-to-divx-encoding-guide/35-xvid-configuration-main-settings-labeled.png)
+
+Second Pass penceresinde 5 işaretli yerimiz var. `1 numaradaki` ayarlar aynı az önce yukarıda yaptığımız First Pass’taki ayarlar ile aynı olacak. `2 numaradaki` ayarlar...
+
+![xvid configuration second pass](images/dvd-to-divx-encoding-guide/36-xvid-configuration-second-pass.png)
+
+...resimdeki gibi olacak. `Stats Filename`’de dikkat edilmesi gereken önemli nokta, buradaki .pass (second pass) dosyasının yolu yukarıdaki first pass ayarlarında `Stats Filename`’de gösterilen .pass yolu ile aynı olacak. Ayarları yapıp ok deyip çıkalım.
+
+Second Pass penceresine geri dönersek, `3 numaradaki` ayarı resimdeki gibi **Twopass – 2nd Pass** yapacağız. `4 numarada`ki Target Size'a ileride tekrar döneceğiz. Şimdilik karşısındaki 570000 değerinin bir önemi yok. Buna ileride tekrar değineceğiz. `5 numaradaki` Advanced Options penceresindeki tüm değerler First Pass’ta anlatıldığı gibi olacak.
+
+Codec ayarlarını tamamladık. Gordian Knot ana penceresine döndükten sonra pencere başlığında (window title)  `FrameNo.` yazılı, açık diğer pencereye geçelim.
+
+![gordian knot frameno set credits start](images/dvd-to-divx-encoding-guide/37-gordian-knot-frameno-set-credits-start.png)
+
+`1 numaralı` Save & Encode butonu ile devam etmeden önce `2 numaralı` butonlarla, filmin sonunda credit’lerin başladığı frame’i bulalım ve `Set Credits Start`’a basalım. Böylece, Credit kısmını daha düşük kalitede rip’lerken filmin geri kalanı için daha yüksek bitrate'imiz kalacak.
+
+`1 numaraya` tıklayalım. Aşağıdaki pencere açılacak:
+
+![gordian knot save avs](images/dvd-to-divx-encoding-guide/38-gordian-knot-save-avs.png)
+
+`1 numaralı` işaretli ayar hariç tüm ayarlar resimdeki gibi olacak. 1 numaradaki ayar, DVD progressive ise `None`, Interlaced ise `Field Deinterlace` olacak. Bunu anlamak için DGIndex ile vob dosyasını açıp F5 preview ile oynatırsanız Frame Type’da DVD’nin Progressive mi Interlace mi olduğunu öğrenebilirsiniz.
+
+`2 numara` ile işaretlediğim yerden kalite kontrolü yapabilirsiniz. Use’u seçerek filmin yüzde kaçını encode edeceğini belirtirsiniz. Now ile test eder, sonucunda değerlerini verir.
+
+1 numarayı ayarladıktan sonra `3 numaraya` basıyoruz. .avs dosyası için bir dosya ismi giriyoruz. Bu isim aynı zamanda .avi dosyamızın da ismi olacak. Encoding tamamlandıktan sonra yeniden adlandırabiliriz. İsmi girerken Türkçe karakter girmemeye ve boşluk kullanmamaya dikkat edelim. Save dedikten sonra aşağıdaki pencere karşımıza çıkacak:
+
+![gordian knot divx encoding control panel audio](images/dvd-to-divx-encoding-guide/39-gordian-knot-divx-encoding-control-panel-audio.png)
+
+Bu pencerede; radyo butonlarından, `Audio-processing disabled`’ın seçili olmasına dikkat edelim. Ardından `Audio1`’in solundaki `XviD` sekmesini tıklayalım:
+
+![gordian knot divx encoding control panel xvid](images/dvd-to-divx-encoding-guide/40-gordian-knot-divx-encoding-control-panel-xvid.png)
+
+`3 numaradaki` **Add Job to Encoding Queue** butununa basıp Yes dedikten sonra işlemcinin gücüne göre 3-9 saat arası sürecek işlem başlar. 2 numara seçili olacak. Tüm ayarlar bu kadar. Bunun haricinde XviD Second Pass ayarlarını yaparken Target Size’ın 570000 gözüktüğünü, bunun bir öneminin olmadığını, bu konuya sonradan tekrar döneceğimi söylemiştim. Bunun için gerekli olmamakla birlikte 1 numarayla işaretlenmiş Second Pass butonuna tıkladığımızda target size’a, Gordian Knot tarafından otomatik olarak doğru değerin girildiğini görüyoruz:
+
+![xvid configuration target size](images/dvd-to-divx-encoding-guide/41-xvid-configuration-target-size.png)
+
+Bu değer, encoding işleminin sonucundak' dosya boyutunu gösterir. Filmi 2 CD yapıyoruz, neden 1400 MB değil derseniz ses dosyasını sonradan ekleyeceğiz. Bu değer filmin ses dosyası hariç kısmının kapasitesidir.
+
+`3 numaradaki` Add Job to Encoding Queue butununa basıp Yes diyerek encoding işlemini başlatalım. XviD codec’i ile encode yapıyorsanız. VirtualDub Mod ile beraber bir başka takip penceresi açılacaktır. VirtualDub Mod ana ekranından `Options > Show Status Window` ile encode işlemini takip edebilirsiniz.
+
+Ayrıca, son model bir sisteminiz yok ise eMule’ü, Azureus’u kapatmanız gerekebilir. Düşük sistemlerde encoding yaparken bilgisayar yavaşlayacaktır. Ancak Gordian Knot ile encode yapmak benim makinamı Dr. DivX ile encode yaparkenki kadar yormuyor. 
+
+Buraya kadar tüm anlattıklarım kendi deneyimlerim. Ayarların bir kısmı kural olarak sabit kalmalıyken kendinizi geliştirdikçe bir kısmını isteğiniz, ilgi alanınız doğrultusunda değiştirebilirsiniz.
+
+### SES EKLEME
+
+Encoding işlemi tamamlandığında sessiz avi dosyamız hazır olacak. Bundan sonraki adımda, Nandub programı ile filmimize ses ekleyeceğiz. Bunun için Nandub programını açalım.
+
+![nandub open video file](images/dvd-to-divx-encoding-guide/42-nandub-open-video-file.png)
+
+![nandub select video file](images/dvd-to-divx-encoding-guide/43-nandub-select-video-file.png)
+
+Nandub'da, `Open Video File` ile açılan pencereden `DVD > Projects > Film Adı` klasörünün içinde bulunan avi dosyamızı açalım.
+
+![nandub audio](images/dvd-to-divx-encoding-guide/44-nandub-audio.png)
+
+Nandub'da, Audio menüsünü açalım. Ses eklerken, buradaki şıklardan en çok `(VBR) MP3 audio...` ile `AC3 audio`’yu kullanacağız. Ekleyeceğimiz ses dosyası `WAV` veya `Ogg` formatında ise onlar için de şıklar mevcut. Bunun haricinde, `Interleaving...` şıkkı kullanacağımız diğer bir şık. Hazırladığımız filmin çift sesli (Dual Audio) olmasını istersek, ilk sesi ekledikten sonra `Secondary Stream` alt-menüsünü kullanarak, aynı ses ekleme yöntemi ile ikinci sesi ekleyebiliriz. 
+
+Şimdiye kadar adım adım rip’lediğimiz ve encode yaptığımız filmimiz için AC3 ses dosyası hazırlamıştık. Bunun için, Audio menüsünden AC3 audio’ya tıklıyoruz. 
+
+![nandub open ac3 file](images/dvd-to-divx-encoding-guide/45-nandub-open-ac3-file.png)
+
+AC3 ses dosyasının yerini genelde otomatik olarak buluyor. Bize yalnızca dosyayı seçip açmak kalıyor. Burada ufak bir not ekleyeceğim. Dosya ismindeki **DELAY * ms** değerini bir kenara not alalım. Bu ses dosyasında delay değeri **0** olsa da başka bazı filmlerin ses dosyasında delay değeri farklı olabilir. Görüntü ile ses arasında, birleştirdikten sonra `senkron kayması olmaması` için, `değer 0’dan farklı ise` ileride interleave yaparken bunu düzeltmemiz gerekecek.
+
+![nandub ac3 -file parameters](images/dvd-to-divx-encoding-guide/46-nandub-ac3-file-parameters.png)
+
+Ses dosyamız açıldı.
+
+Nandub Audio menüsünden `Interleaving` şıkkına tıklıyoruz ve ayarlarını aşağıdaki gibi yapıyoruz. Burada `delay audio track by` kısmına, yukarıda dosya isminde geçen delay değerine göre zıttı bir değer girmemiz gerekiyor. (Örneğin dosya isminde `delay 23ms ise` buraya -`23 değerini` gireceğiz.) 
+
+![nandub audio video interleave options](images/dvd-to-divx-encoding-guide/47-nandub-audio-video-interleave-options.png)
+
+OK deyip çıkıyoruz.
+
+![nandub video](images/dvd-to-divx-encoding-guide/48-nandub-video.png)
+
+Nandub Video menüsünden `Direct Stream Copy` seçili olacak. Audio menüsünde varsayılan olarak zaten `Direct Stream Copy` seçilidir. 
+
+![nandub save as avi](images/dvd-to-divx-encoding-guide/49-nandub-save-as-avi.png)
+
+Nandub File menüsünden `Save as avi`'ye basalım.
+
+![nandub save as avi 20 file](images/dvd-to-divx-encoding-guide/50-nandub-save-as-avi-20-file.png)
+
+Farklı bir klasöre farklı bir dosya adı girerek dosyamızı kaydedelim.
+
+![nandub status](images/dvd-to-divx-encoding-guide/51-nandub-status.png)
+
+Yukarıdaki işlem esnasında görüntü ile ses birleştiriliyor ve 2 CD kapasitesindeki DivX’imiz hazır hale geliyor.
+
+![nandub result in explorer](images/dvd-to-divx-encoding-guide/52-nandub-result-in-explorer.png)
+
+DivX’imiz hazır hale geldikten sonra eksik kalanlar: 
+
+- film cd boyutlarında iki parçaya bölünecek
+- vobsub altyazı dosyası aynı yerden ikiye bölünecek.
+
+Devam edelim. Şimdi, filmi böleceğimiz keyframe’i bulmak için VirtualDub Mod programını çalıştıralım ve filmi açalım.
+
+![virtualdubmod in action](images/dvd-to-divx-encoding-guide/53-virtualdubmod-in-action.png)
+
+Filmi böleceğimiz yeri bulmadan önce, VirtualDub Mod’daki butonların işlevlerini anlatacağım. 
+
+`1 numaralı buton` ile film dosyasının en başına, `2 numaralı buton` ile en sonuna gidersiniz. `3 ve 4 numaralı butonlar`la bir önceki ve sonraki keyframe’lere atlayabilirsiniz. `5 numaralı buton` ile filmin işlem yapacağınız kısmındaki başlangıç frame’ini ve `6 numaralı buton` ile de işlemin biteceği frame’i belirlersiniz.
+
+Filmi böleceğimiz yer `693 MB ile 698 MB` arasında uygun bir keyframe olmalı. CTRL + G ile filmin ortalarında bir frame’e atlayalım. Ardından 700 MB’ye yaklaştıkça veya geçtiysek 3 ve 4 numaralı butonlarla doğru yeri bulmaya çalışalım.
+
+![virtualdubmod find keyframe](images/dvd-to-divx-encoding-guide/54-virtualdubmod-find-keyframe.png)
+
+Filmi böleceğim yeri kırmızı çember içine aldım. Frame değerini ve süreyi -salisesi dahil- kenara not ettim ve VirtualDub Mod’u kapattım. Nandub ile filmi açtım. Şimdi adım adım filmi 2 CD’ye bölüp kaydetme işlemlerini yapalım.
+
+![virtualdubmod cut keyframe](images/dvd-to-divx-encoding-guide/55-virtualdubmod-cut-keyframe.png)
+
+Filmi Nandub'da açtıktan sonra `2 numaralı` butona basalım. `CTRL + J` ile VirtualDub Mod kullanarak bulduğumuz filmin bölüneceği keyframe’e atlayalım. `3 numaralı` butona basalım. Bu şekilde belirlediğimiz başlangıç ve bitiş kısmı Nandub’ın bar kısmında, yukarıdaki gibi mavi renkle görüntülenir. Nandub Audio menüsünde `Interleaving` şıkkındaki ayarlar aşağıdaki gibi olsun.
+
+![nandub set audio delay](images/dvd-to-divx-encoding-guide/56-nandub-set-audio-delay.png)
+
+Bu defa `Delay audio track by *** ms` değeri 0 olarak kalacak.
+
+Audio ve Video menülerinde `Direct Stream Copy`’nin seçili olduğundan emin olalım ve `File > Save as avi`’yi seçelim.
+
+![nandub add job list](images/dvd-to-divx-encoding-guide/57-nandub-add-job-list.png)
+
+Kırmızı çember içine aldığım kutucuğu işaretleyelim ve dosya ismini farklı girelim, örneğin `Star Wars 5 cd1.avi`. Save’e basınca çember içindeki ayarı seçtiğimiz için işlem başlamak yerine job list’e eklendi. Tekrardan Nandub’ın ana penceresine döndük. 2. CD’yi yapmak için:
+
+![nandub add jobs](images/dvd-to-divx-encoding-guide/58-nandub-add-jobs.png)
+
+1. CD'yi yaparken kaldığımız yerden sırasıyla `1 numaralı` butona ve sonra `3 numaralı` butona basalım. `File > Save as avi` diyerek farklı bir dosya ismi girelim, örneğin `Star Wars 5 cd2` ve `add operation to job list`’i tekrardan seçelim.
+
+Job List’e eklediğimiz işlemleri başlatmak için job list'in kısayolu F4’e basalım.
+
+![virtualdub job control](images/dvd-to-divx-encoding-guide/59-virtualdub-job-control.png)
+
+Start butonuna bastığımızda işlemler başlayacak ve bittiğinde cd’lere kaydedilmeye hazır ikiye bölünmüş filmimiz hazır olacaktır.
+
+### VobSub Bölme
+
+Film dosyasını ikiye böldükten sonra görüntüye senkronlu vobsub altyazı dosyasını ikiye böleceğiz. Bunun için `VobSub Cutter` programını açalım. Programı iki şekilde açabiliriz. İlk olarak, Programı Başlat > Programlar’dan açabiliriz.
+
+![vobsub cutter](images/dvd-to-divx-encoding-guide/60-vobsub-cutter.png)
+
+İkinci olarak, Gordian Knot ana penceresinden, `Subtitles / Chapters` sekmesinden açabiliriz.
+
+![gordian knot cutter](images/dvd-to-divx-encoding-guide/61-gordian-knot-cutter.png)
+
+Açılan VobSub: Sub File Cutter penceresinde Open butonuna basalım.
+
+![gordian knot cutter](images/dvd-to-divx-encoding-guide/62-vobsub-file-cutter.png)
+
+Açılan dosya açma penceresinden .idx uzantılı dosyayı açalım.
+
+![vobsub file cutter open file](images/dvd-to-divx-encoding-guide/63-vobsub-file-cutter-open-file.png)
+
+![vobsub file cutter open file](images/dvd-to-divx-encoding-guide/64-vobsub-file-cutter-set-end.png)
+
+İlk CD’nin altyazılarını bölmek için start değerlerini 0 yapalım. End değerleri ise VirtualDub Mod ile belirlediğimiz filmi böldüğümüz yerin zaman değerleri olacak. Kutucuklar resimdeki gibi olsun. Save as ile farklı bir isim vererek 1. CD’nin altyazılarını kaydedelim, Vobsub cutter’ı kapatıp tekrar açalım.
+
+![vobsub file cutter open file](images/dvd-to-divx-encoding-guide/65-vobsub-file-cutter-set-start.png)
+
+idx dosyasını açtıktan sonra, bu defa Start değerleri önceki End değerleri olacak ve End değerlerine dokunmayacağız. İkinci cd’nin altyazılarını da kaydedelim.
+
+Vobsub altyazımızı ikiye bölme işlemi bu kadar.
+
+İyi seyirler.

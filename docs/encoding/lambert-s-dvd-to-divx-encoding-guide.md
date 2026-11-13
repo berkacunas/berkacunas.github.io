@@ -1,3 +1,8 @@
+---
+title: "Lambert'ın DVD'den DivX Yapım Rehberi"
+image: /encoding/images/dvd-to-divx-encoding-guide/22-gordian-knot-bitrate-screen-labeled.png
+---
+
 # DVD’DEN DIVX YAPIMI (ADIM ADIM)
 
 ## GEREKLİ PROGRAMLAR VE LİNKLERİ

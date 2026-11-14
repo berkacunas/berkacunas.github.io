@@ -1,10 +1,10 @@
 Technical notes, projects, and archives on video processing workflows, frameserver architectures, and encoding automation.
 
 ## Techinal Guides
-* **From the Archive (2005)** 
+**From the Archive (2005)** 
 
-    [Lambert's DVD to DivX Encoding Guide (Turkish)](encoding/lambert-s-dvd-to-divx-encoding-guide.md) - *Historical reference on early MPEG-4 encoding workflows.*
-    [AviSynth Denoiser Analysis for Doom9tr (Turkish)](encoding/avisynth-denoiser-analysis-for-doom9tr.md) - *A 2005 study on handling film grain and source noise using legacy AviSynth plugins.*
+* [Lambert's DVD to DivX Encoding Guide (Turkish)](encoding/lambert-s-dvd-to-divx-encoding-guide.md) - *Historical reference on early MPEG-4 encoding workflows.*
+* [AviSynth Denoiser Analysis for Doom9tr (Turkish)](encoding/avisynth-denoiser-analysis-for-doom9tr.md) - *A 2005 study on handling film grain and source noise using legacy AviSynth plugins.*
 
 ## Upcoming Content
 

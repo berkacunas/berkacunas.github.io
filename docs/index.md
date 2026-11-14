@@ -1,14 +1,15 @@
 Technical notes, projects, and archives on video processing workflows, frameserver architectures, and encoding automation.
 
 ## Techinal Guides
-* **From the Archive (2005):** [Lambert's DVD to DivX Encoding Guide (Turkish)](encoding/lambert-s-dvd-to-divx-encoding-guide.md) - *Historical reference on early MPEG-4 encoding workflows.*
+* **From the Archive (2005)** 
+[Lambert's DVD to DivX Encoding Guide (Turkish)](encoding/lambert-s-dvd-to-divx-encoding-guide.md) - *Historical reference on early MPEG-4 encoding workflows.*
+[AviSynth Denoiser Analysis for Doom9tr (Turkish)](encoding/avisynth-denoiser-analysis-for-doom9tr.md) - *A 2005 study on handling film grain and source noise using legacy AviSynth plugins.*
 
 ## Upcoming Content
 
 I am currently compiling documentation and video processing pipelines built with Python, **VapourSynth**, **qaac** and **FFmpeg**. 
 
 Upcoming content:
-* **Denoising Filter Work for Doom9tr:**  Comparative analysis and parameter tuning of temporal/spatial denoisers (like SMDegrain and Convolution3D) to clean video noise while preserving fine grain and detail.
 * **VapourSynth Automation:** Dynamic cropping with FFmpeg and OS-level IPC (`vspipe`) architecture.
 * **Modern Encoding:** High-quality HEVC/x265 encode workflows.
 

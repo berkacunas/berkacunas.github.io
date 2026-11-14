@@ -5,6 +5,8 @@ image: /encoding/images/dvd-to-divx-encoding-guide/22-gordian-knot-bitrate-scree
 
 # DVD’DEN DIVX YAPIMI (ADIM ADIM)
 
+> Bu rehber, 2005 yılının sonlarında DivXForever dönemi için hazırlanmış tarihi bir arşivdir. O dönemin video işleme mantığını ve 'Scene' kültürünü yansıtmaktadır.
+
 ## GEREKLİ PROGRAMLAR VE LİNKLERİ
 
 1. [GordianKnot Rip Pack v.0.33.1](http://prdownloads.sourceforge.net/gordianknot/GordianKnot.RipPack.0.33.1.Setup.exe?download )

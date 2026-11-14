@@ -191,7 +191,7 @@ Bitrate sekmesinden başlayalım.
 
 .d2v dosyamızı açtıktan sonra yeni bir pencere açılacak. İlk defa kullananlar, açılan yeni pencerede...
 
-![](./images/dvd-to-divx-encoding-guide/25-gordian-knot-select-resized.png)
+![gordian knot select resized](./images/dvd-to-divx-encoding-guide/25-gordian-knot-select-resized.png)
 
 Resized'ı seçili değilse seçili hale getirmeliler.
 

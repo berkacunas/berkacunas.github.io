@@ -2,7 +2,6 @@ Technical notes, projects, and archives on video processing workflows, frameserv
 
 ## Natural Sciences
 
-* Comparing the Apparent Size of the Sun at Perihelion and Aphelion
 * The Changing Apparent Size of the Sun in the Sky
 
 ## Techinal Guides

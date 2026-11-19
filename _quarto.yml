@@ -6,7 +6,7 @@ project:
     - "*.qmd"
     - "*.md"
     - "!drafts/**"
-    - "articles/index_ex.html"
+    - "!notes/**"
 
 website:
   title: "Berk Acunas"

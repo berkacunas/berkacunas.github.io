@@ -1,0 +1,29 @@
+1. Teknik / Okuma Odaklı Popüler Temalar (cosmo Dışı)
+
+Yazı, dokümantasyon ve teknik notlar için en çok tercih edilen alternatifler:
+
+    flatly: Düz, modern ve ferah bir görünüm; koyu mavi/yeşil-gri dengesiyle temizdir.
+
+    litera: Okuma ve makale/yazı tipografisine odaklanan sade bir tema.
+
+    journal: Gazete/dergi kağıdı hissi veren klasik, okunması rahat açık tema.
+
+    cerulean: Açık mavi tonlarıyla sade ve temiz bir görünüm.
+
+    zephyr: Hafif, modern ve ferah bir tasarım.
+
+    lumen / spacelab / yeti: Sade, kurumsal/teknik duruşlu alternatifler.
+
+2. Karanlık (Dark) ve Özel Estetik Temalar
+
+    Karanlık temalar: darkly (koyu yeşil-mavi vurgulu), cyborg (çok koyu zemin, elektrik mavisi vurgu), slate (gri-füme tonlar), solar (Solarized esintili).
+
+    Farklı tarzlar: lux (keskin serif başlıklar ve sade kontrast), sandstone (sıcak tonlar), minty (yeşil tonlar), pulse (mor tonlar), united (turuncu vurgular).
+
+3. Tema Dışı Hazır Seçenekler
+
+    default: Standart Bootstrap 5 varsayılanı.
+
+    pandoc: Pandoc'un sade varsayılan HTML biçimlendirmesi.
+
+    none: Hiç tema CSS'i eklemez.

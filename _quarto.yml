@@ -1,6 +1,11 @@
 project:
   type: website
-  output-dir: quarto-docs
+  output-dir: docs
+  render:
+    - index.qmd
+    - "*.qmd"
+    - "!drafts/**"
+    - "articles/index_ex.html"
 
 website:
   title: "Berk Acunas"

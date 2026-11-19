@@ -4,7 +4,7 @@ Technical notes, projects, and archives on video processing workflows, frameserv
 
 * The Changing Apparent Size of the Sun in the Sky - (Coming Soon)
 
-## Techinal Guides
+## Technical Guides
 **From the Archive (2005)** 
 
 * [Lambert's DVD to DivX Encoding Guide (Turkish)](encoding/lambert-s-dvd-to-divx-encoding-guide.md) - *Historical reference on early MPEG-4 encoding workflows.* `14 November 2026`
@@ -14,7 +14,6 @@ Technical notes, projects, and archives on video processing workflows, frameserv
 
 I am currently compiling documentation and video processing pipelines built with Python, **VapourSynth**, **qaac** and **FFmpeg**. 
 
-Upcoming content:
 * **The Changing Apparent Size of the Sun in the Sky:** An amateur telescope photography study illustrating how the Sun's angular size in the sky varies seasonally.
 * **VapourSynth Automation:** Dynamic cropping with FFmpeg and OS-level IPC (`vspipe`) architecture.
 * **Modern Encoding:** High-quality HEVC/x265 encode workflows.

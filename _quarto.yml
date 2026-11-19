@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: quarto-docs
+
+website:
+  title: "Berk Acunas"
+  site-url: "https://berkacunas.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: true

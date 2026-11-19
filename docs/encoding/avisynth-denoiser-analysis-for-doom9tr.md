@@ -76,7 +76,8 @@ MaskTools, LimitedSharpen'ın çalışmak için ihtiyaç duyduğu çekirdek ekle
 [https://web.archive.org/web/2008/http://manao4.free.fr/MaskTools-v1.5.8.zip](https://web.archive.org/web/2008/http://manao4.free.fr/MaskTools-v1.5.8.zip)
 
 
-LimitedSharpen
+LimitedSharpen Script'i. (Dosya yolu, avisynth script'i başında import edilerek kullanılır)
 [LimitedSharpen.avsi](./scripts/LimitedSharpen.avsi)
+
 
 İyi çalışmalar.

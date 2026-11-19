@@ -15,7 +15,7 @@ Technical notes, projects, and archives on video processing workflows, frameserv
 I am currently compiling documentation and video processing pipelines built with Python, **VapourSynth**, **qaac** and **FFmpeg**. 
 
 Upcoming content:
-* **The Changing Size of the Sun in the Sky:** An amateur telescope photography study illustrating how the Sun's angular size in the sky varies seasonally.
+* **The Changing Apparent Size of the Sun in the Sky:** An amateur telescope photography study illustrating how the Sun's angular size in the sky varies seasonally.
 * **VapourSynth Automation:** Dynamic cropping with FFmpeg and OS-level IPC (`vspipe`) architecture.
 * **Modern Encoding:** High-quality HEVC/x265 encode workflows.
 

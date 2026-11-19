@@ -1,5 +1,6 @@
 ---
 title: "Lambert'ın DVD'den DivX Yapım Rehberi"
+description: "Historical reference on early MPEG-4 encoding workflows."
 image: /encoding/images/dvd-to-divx-encoding-guide/22-gordian-knot-bitrate-screen-labeled.png
 ---
 

@@ -4,6 +4,7 @@ project:
   render:
     - index.qmd
     - "*.qmd"
+    - "*.md"
     - "!drafts/**"
     - "articles/index_ex.html"
 

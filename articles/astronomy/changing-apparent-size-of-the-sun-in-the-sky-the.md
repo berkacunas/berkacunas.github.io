@@ -1,7 +1,7 @@
 ---
 title: "Güneş'in Gökyüzünde Değişen Görünür Büyüklüğü"
 description: "An amateur telescope photography study illustrating how the Sun's angular size in the sky varies seasonally."
-image: /docs/articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-filter-on-aperture.jpg
+image: articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-filter-on-aperture.jpg
 ---
 ## Çalışmanın Amacı
 Bu çalışmada, Dünya'nın Güneş çevresindeki yönüngesinde Güneş'e en yakın ve en uzak olduğu tarihlerde teleskop ile fotoğraflarının çekilmesi ve bu fotoğraflar üzerinde yapılacak karşılaştırma ile yıldızın çapındaki değişimin görüntülenmesi amaçlanmıştır. Çalışmadaki fotoğraflar, ön-açıklığına Baader Beyaz Işık Güneş Filtresi bağlı Skywatcher 8" Explorer aynalı teleskop objektif olarak kullanılarak, teleskoba prime-focus metodu ile bağlı Canon EOS 650D fotoğraf makinesi ile alınmıştır.

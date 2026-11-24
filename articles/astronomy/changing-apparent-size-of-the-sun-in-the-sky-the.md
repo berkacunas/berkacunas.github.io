@@ -1,7 +1,7 @@
 ---
 title: "Güneş'in Gökyüzünde Değişen Görünür Büyüklüğü"
 description: "An amateur telescope photography study illustrating how the Sun's angular size in the sky varies seasonally."
-image: articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky,-the/solar-filter-on-aperture.jpg
+image: articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-filter-on-aperture.jpg
 ---
 ## Çalışmanın Amacı
 Bu çalışmada, Dünya'nın Güneş çevresindeki yönüngesinde Güneş'e en yakın ve en uzak olduğu tarihlerde teleskop ile fotoğraflarının çekilmesi ve bu fotoğraflar üzerinde yapılacak karşılaştırma ile yıldızın çapındaki değişimin görüntülenmesi amaçlanmıştır. Çalışmadaki fotoğraflar, ön-açıklığına Baader Beyaz Işık Güneş Filtresi bağlı Skywatcher 8" Explorer aynalı teleskop objektif olarak kullanılarak, teleskoba prime-focus metodu ile bağlı Canon EOS 650D fotoğraf makinesi ile alınmıştır.
@@ -10,7 +10,7 @@ Bu çalışmada, Dünya'nın Güneş çevresindeki yönüngesinde Güneş'e en y
 Gökyüzünde bize en tanıdık iki cisim için zorlanmadan Güneş ve Ay'dır diyebiliriz. Yıldızlar, asterizmler ve takımyıldızlarını da tanıyabiliriz ancak çoğunu isimleri ile bilmeyiz. Geceleri Ay'a baktığımızda Ay'ın evrelerinin olduğunu henüz çok küçük yaşta öğreniriz. Ancak Ay'ın gökyüzünde zaman zaman daha büyük ya da daha küçük göründüğünü farketmek için daha keskin bir gözlemci olmak gerekir. Buradaki daha büyük olma hali Ay doğarken ve ufka yakınken bir göz yanılsaması olarak Ay'ı daha büyük algılamamızdan farklı bir durumdur. Biri algısal bir yanılsamayken diğerinde Ay bize gerçekten daha yakın ya da daha uzak olduğu için gökyüzünde daha büyük ya da daha küçük görünür. Modern çağda astronomi geliştirken Ay'ın en büyük göründüğü haline Süper-Ay, en küçük göründüğü haline ise Mikro-Ay demişler. Ay'ın gökyüzündeki görünür boyutundaki bu değişim Dünya çevresindeki yörüngesinin elips şeklinde olmasından kaynaklanır. Yörünge düzlemi boyunca 1 tam tur atarken Ay Dünya'ya yaklaşır ve uzaklaşır. En yakın olduğu konuma yerberi (perigee), en uzak olduğu konuma da yeröte (apogee) denilir.
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/moon-apsidal-precession.png" style="width: 100%; max-width: 100%; height: auto;" alt="Mevsimler">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/moon-apsidal-precession.png" style="width: 100%; max-width: 100%; height: auto;" alt="Mevsimler">
   <small>Ay'ın Eliptik Yörüngesi ve Apsis Hareketi</small>
   <a href="#sectionileriokuma">[1]</a>
 </figure>
@@ -21,21 +21,21 @@ Gökyüzünde bize en tanıdık iki cisim için zorlanmadan Güneş ve Ay'dır d
 Gene eski bilgilerimizden hatırlayacak olursak Dünya'nın Güneş çevresindeki yörüngesi de, aynı Ay'ın Dünya çevresindeki yörüngesinde olduğu gibi eliptiktir. 
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/seasons-on-earth.png" style="width: 100%; max-width: 100%; height: auto;" alt="Mevsimler">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/seasons-on-earth.png" style="width: 100%; max-width: 100%; height: auto;" alt="Mevsimler">
   <small>Mevsimler</small>
 </figure>
 
 Her ne kadar Dünya'nın yörüngesi eliptik olsa da yörünge dışmerkezliği (eccentricity) 0.0167 gibi çok düşük bir değerdedir. Dünya'nın yörüngesi aslında kusursuz bir çembere çok yakındır. Eğer, bir kağıdın üzerine Dünya'nın yörüngesini muntazam şekilde çizseydik gözümüz bunu mükemmel bir çemberden ayırt edemezdi. Güneş Sistemi'ndeki gezegen yörüngeleri ile ilgili genel bir fikir edinmek için Dünya'nın yörünge dışmerkezliğini diğer gezegenlerin yörünge dışmerkezlik değerleri ile karşılaştırabiliriz. Buna göre; Venüs'ün dışmerkezliği 0.0068 ile Dünya'dan bile daha çemberken, Mars'ınki 0.0934 ve Merkür'ün ise 0.2056 gibi çok daha eliptik değerlere sahiptir.
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/inner-planet-orbits.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="İç Gezegen Yörüngeleri">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/inner-planet-orbits.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="İç Gezegen Yörüngeleri">
   <small>Güneş Sistemi İç Gezegen Yörüngeleri | <a href="https://centerplanetarysciences.org/mars-research/orbit-of-mars/">centerplanetarysciences.org</a></small>
 </figure>
 
 Dünya'nın dışmerkezliği çok düşük olsa da, astronomik ölçekte bu çok düşük değer önemli farka neden olur. Dünya yörüngesinde Güneş'e en yakın olduğu `günberi (perihelion)` noktasında yıldızına uzaklığı 147.1 milyon km'yken, en uzak olduğu `günöte (aphelion)` noktasında 152,1 milyon km'dir. Dünya, Güneş çevresindeki yörüngesinde her 1 turda Güneş'e 5 milyon km. yaklaşıp uzaklaşmaktadır. Bu mesafe Güneş'e ortalama `(mean distance)` uzaklığının yaklaşık %3,3'üne karşılık gelir ve bunun bir sonucu olarak Güneş de aynı Ay gibi gökyüzünde dönemsel olarak büyür ve küçülür.
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/earth-orbit-around-sun-solstice-aphelion-perihelion-solar-system-seasons.png" style="width: 100%; max-width: 100%; height: auto;" alt="Dünya'nın Güneş Çevresindeki Yörüngesi">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/earth-orbit-around-sun-solstice-aphelion-perihelion-solar-system-seasons.png" style="width: 100%; max-width: 100%; height: auto;" alt="Dünya'nın Güneş Çevresindeki Yörüngesi">
   <small>Dünya'nın Güneş Çevresindeki Yörüngesi | <a href="https://www.britannica.com/topic/How-Far-Is-the-Sun-from-Earth">Britannica</a></small>
 </figure>
 
@@ -56,19 +56,19 @@ Beyaz Işık Filtresi Güneş'in fotosferini (görünür yüzey) gösterir. Bu f
 Beyaz Işık Filtreleri astronomi gereçleri satan dükkanlardan ya da astronomi forumlarındaki güven duyulan satıcılardan astronomi dükkanlarına göre çok daha ucuza alınabilir.
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/baader-white-light-solar-filter.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Güneş filtresi takılmış teleskop açıklığı">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/baader-white-light-solar-filter.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Güneş filtresi takılmış teleskop açıklığı">
   <small>Baader Beyaz Işık Filtresi.</small>
 </figure>
 
 > Beyaz Işık Filtremi ilk teleskobumu aldıktan kısa bir süre sonra üyesi olduğu bir yerli astronomi forumundaki Satış bölümünden almıştım. Bu forumda, o tarihte Türkiye'de amatör astronomi dendiğinde ilk akla gelen isimler aktif olarak yazışıyorlardı ve onlardan onay almış filtreyi almaktan çekinmedim ancak bu filtre takılıyken, kullandığım süre boyunca asla çıplak gözle okulerden Güneş'e bakmadım. Her zaman kamera kullandım. Teleskobun açıklığına sıkıca oturtmak için karton ve ipi kendim ekledim.
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/solar-filter-on-aperture.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Güneş filtresi takılmış teleskop açıklığı">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-filter-on-aperture.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Güneş filtresi takılmış teleskop açıklığı">
   <small>Teleskopun ön açıklığına sabitlenmiş Beyaz Işık Güneş Filtresi.</small>
 </figure>
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/capturing-the-sun.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Güneş filtresi takılmış teleskop açıklığı">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/capturing-the-sun.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Güneş filtresi takılmış teleskop açıklığı">
   <small>Prime-Focus'ta takılı Fotoğraf Makinesi Elektronik Vizöründe Güneş</small>
 </figure>
 
@@ -79,7 +79,7 @@ Gözleme başlarken ilk amaç, teleskobu tam olarak Güneş'e doğrultmak ve kam
 
 ### Parlak Güneş
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/sol-5-july-2020.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Henüz enstantane ve ISO ayarları yapılmamışken olması gerekenden parlak çıkan Güneş">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/sol-5-july-2020.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Henüz enstantane ve ISO ayarları yapılmamışken olması gerekenden parlak çıkan Güneş">
   <small>Başlarken henüz enstantane ve ISO ayarları yapılmadığından yüzeyi seçilemeyecek kadar parlak çıkan Güneş</small>
 </figure>
 
@@ -88,19 +88,19 @@ Artık sonuç bölümüne geçebiliriz. Fotoğrafları kameradan aldıktan ve st
 Bilindiği üzere Güneş tüm renklerde ışıma yapar ve tüm renklerin bir arada bulunduğu renk beyaz rengi olduğundan Güneş'in rengi beyazdır. Gözümüzle gökyüzünde gördüğümüz sarıya çalan rengi atmosferdeki gazların Güneş'ten gelen mavi dalga boylarını saçması `(Rayleigh saçılması)` sonucu oluşur. Gözümüze ulaşan ışıkta kırmızı, turuncu ve sarı dalga boyları çoğunlukta kalır.
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/solar-aphelion-and-perihelion-disk.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-aphelion-and-perihelion-disk.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="">
   <small></small>
 </figure>
 
 ### Üst üste bindirilmiş en uzak ve en yakın Güneş
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/solar-comparison-overlay.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Üst üste bindirilmiş en küçük ve en büyük Güneş">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-comparison-overlay.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Üst üste bindirilmiş en küçük ve en büyük Güneş">
   <small>Büyüklük farkının belli olması için arkadaki Güneş daha koyu.</small>
 </figure>
 
 ### Yarılardan yan yana hizalanmış en uzak ve en yakın Güneş
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/solar-comparison-side-by-side.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Yarılardan yan yana hizalanmış en küçük ve en büyük Güneş">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-comparison-side-by-side.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="Yarılardan yan yana hizalanmış en küçük ve en büyük Güneş">
   <small></small>
 </figure>
 
@@ -108,7 +108,7 @@ Bilindiği üzere Güneş tüm renklerde ışıma yapar ve tüm renklerin bir ar
 Ay'ı da ekleyelim mi?
 
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/perigee-and-apogee-of-the-sun-and-the-moon.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/perigee-and-apogee-of-the-sun-and-the-moon.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="">
   <small></small>
 </figure>
 
@@ -116,7 +116,7 @@ Ay'ı da ekleyelim mi?
 
 ## Güneş Tutulması Türlerinin Çekilen En Yakın ve En Uzak Güneş ve Ay Fotoğrafları Kullanılarak İspatı
 <figure>
-  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky,-the/solar-eclipse-variations.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="">
+  <img src="./images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-eclipse-variations.jpg" style="width: 100%; max-width: 100%; height: auto;" alt="">
   <small>Güneş Tutulması Türleri</small>
 </figure>
 

@@ -2,7 +2,7 @@ Technical notes, projects, and archives on video processing workflows, frameserv
 
 ## Natural Sciences
 
-* The Changing Apparent Size of the Sun in the Sky - (Coming Soon)
+* [The Changing Apparent Size of the Sun in the Sky (Turkish)](articles/astronomy/changing-apparent-size-of-the-sun-in-the-sky,-the.md) - *An amateur telescope photography study illustrating how the Sun's angular size in the sky varies seasonally.* `24 November 2026`
 
 ## Technical Guides
 **From the Archive (2005)** 

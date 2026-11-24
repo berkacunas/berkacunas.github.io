@@ -5,7 +5,7 @@ format:
   html:
     include-in-header:
       - text: |
-          <meta property="og:image" content="https://berkacunas.github.io/articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-filter-on-aperture.jpg">
+          <meta property="og:image" content="https://berkacunas.github.io/articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky-the/sol-5-july-2020.jpg">
 ---
 
 ## Çalışmanın Amacı

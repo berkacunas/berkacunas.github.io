@@ -1,10 +1,15 @@
 ---
 title: "Güneş'in Gökyüzünde Değişen Görünür Büyüklüğü"
 description: "An amateur telescope photography study illustrating how the Sun's angular size in the sky varies seasonally."
-image: articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-filter-on-aperture.jpg
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta property="og:image" content="https://berkacunas.github.io/articles/astronomy/images/changing-apparent-size-of-the-sun-in-the-sky-the/solar-filter-on-aperture.jpg">
 ---
+
 ## Çalışmanın Amacı
-Bu çalışmada, Dünya'nın Güneş çevresindeki yönüngesinde Güneş'e en yakın ve en uzak olduğu tarihlerde teleskop ile fotoğraflarının çekilmesi ve bu fotoğraflar üzerinde yapılacak karşılaştırma ile yıldızın çapındaki değişimin görüntülenmesi amaçlanmıştır. Çalışmadaki fotoğraflar, ön-açıklığına Baader Beyaz Işık Güneş Filtresi bağlı Skywatcher 8" Explorer aynalı teleskop objektif olarak kullanılarak, teleskoba prime-focus metodu ile bağlı Canon EOS 650D fotoğraf makinesi ile alınmıştır.
+Bu çalışmada, Dünya'nın Güneş çevresindeki yörüngesinde Güneş'e en yakın ve en uzak olduğu tarihlerde teleskop ile fotoğraflarının çekilmesi ve bu fotoğraflar üzerinde yapılacak karşılaştırma ile yıldızın çapındaki değişimin görüntülenmesi amaçlanmıştır. Çalışmadaki fotoğraflar, ön-açıklığına Baader Beyaz Işık Güneş Filtresi bağlı Skywatcher 8" Explorer aynalı teleskop objektif olarak kullanılarak, teleskoba prime-focus metodu ile bağlı Canon EOS 650D fotoğraf makinesi ile alınmıştır.
 
 ## Başlarken Daha Kolay Bir Hedef Olarak Uydumuz Ay
 Gökyüzünde bize en tanıdık iki cisim için zorlanmadan Güneş ve Ay'dır diyebiliriz. Yıldızlar, asterizmler ve takımyıldızlarını da tanıyabiliriz ancak çoğunu isimleri ile bilmeyiz. Geceleri Ay'a baktığımızda Ay'ın evrelerinin olduğunu henüz çok küçük yaşta öğreniriz. Ancak Ay'ın gökyüzünde zaman zaman daha büyük ya da daha küçük göründüğünü farketmek için daha keskin bir gözlemci olmak gerekir. Buradaki daha büyük olma hali Ay doğarken ve ufka yakınken bir göz yanılsaması olarak Ay'ı daha büyük algılamamızdan farklı bir durumdur. Biri algısal bir yanılsamayken diğerinde Ay bize gerçekten daha yakın ya da daha uzak olduğu için gökyüzünde daha büyük ya da daha küçük görünür. Modern çağda astronomi geliştirken Ay'ın en büyük göründüğü haline Süper-Ay, en küçük göründüğü haline ise Mikro-Ay demişler. Ay'ın gökyüzündeki görünür boyutundaki bu değişim Dünya çevresindeki yörüngesinin elips şeklinde olmasından kaynaklanır. Yörünge düzlemi boyunca 1 tam tur atarken Ay Dünya'ya yaklaşır ve uzaklaşır. En yakın olduğu konuma yerberi (perigee), en uzak olduğu konuma da yeröte (apogee) denilir.

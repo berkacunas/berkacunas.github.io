@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://berkacunas.github.io/articles/encoding/lambert-s-dvd-to-divx-encoding-guide.html</loc>
-    <lastmod>2026-11-19T18:54:45.325Z</lastmod>
+    <loc>https://berkacunas.github.io/tr/articles/encoding/lambert-s-dvd-to-divx-encoding-guide.html</loc>
+    <lastmod>2026-11-26T17:41:02.852Z</lastmod>
   </url>
   <url>
-    <loc>https://berkacunas.github.io/articles/astronomy/changing-apparent-size-of-the-sun-in-the-sky-the.html</loc>
-    <lastmod>2026-11-24T19:10:08.515Z</lastmod>
+    <loc>https://berkacunas.github.io/tr/articles/astronomy/changing-apparent-size-of-the-sun-in-the-sky-the.html</loc>
+    <lastmod>2026-11-26T19:24:56.913Z</lastmod>
   </url>
   <url>
-    <loc>https://berkacunas.github.io/index.html</loc>
-    <lastmod>2026-11-24T18:25:41.981Z</lastmod>
+    <loc>https://berkacunas.github.io/tr/index.html</loc>
+    <lastmod>2026-11-26T19:16:48.571Z</lastmod>
   </url>
   <url>
-    <loc>https://berkacunas.github.io/articles/encoding/avisynth-denoiser-analysis-for-doom9tr.html</loc>
-    <lastmod>2026-11-19T18:54:44.165Z</lastmod>
+    <loc>https://berkacunas.github.io/en/index.html</loc>
+    <lastmod>2026-11-26T19:17:41.743Z</lastmod>
+  </url>
+  <url>
+    <loc>https://berkacunas.github.io/en/articles/astronomy/changing-apparent-size-of-the-sun-in-the-sky-the.html</loc>
+    <lastmod>2026-11-26T19:20:09.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://berkacunas.github.io/tr/articles/encoding/avisynth-denoiser-analysis-for-doom9tr.html</loc>
+    <lastmod>2026-11-26T17:40:09.900Z</lastmod>
   </url>
 </urlset>

@@ -13,8 +13,13 @@ website:
   site-url: "https://berkacunas.github.io"
   navbar:
     left:
-      - href: index.qmd
+      - href: en/index.qmd
         text: Home
+    right:
+      - text: "🇬🇧 EN"
+        href: en/index.qmd
+      - text: "🇹🇷 TR"
+        href: tr/index.qmd
 
 format:
   html:

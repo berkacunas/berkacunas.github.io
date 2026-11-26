@@ -1,0 +1,20 @@
+Video işleme akışları, frameserver mimarileri ve kodlama otomasyonu üzerine teknik notlar, projeler ve arşivler.
+
+## Doğa Bilimleri
+
+* [Güneş’in Gökyüzünde Değişen Görünür Büyüklüğü](articles/astronomy/changing-apparent-size-of-the-sun-in-the-sky-the.md) - *Güneş’in gökyüzündeki açısal büyüklüğünün mevsimsel olarak nasıl değiştiğini gösteren amatör teleskop fotoğrafçılığı çalışması.* `24 Kasım 2026`
+
+## Teknik Rehberler
+**Arşivden (2005)**
+
+* [Lambert’ın DVD’den DivX’e Encoding Rehberi](articles/encoding/lambert-s-dvd-to-divx-encoding-guide.md) - *Erken dönem MPEG-4 kodlama iş akışlarına dair tarihsel kaynak.* `14 Kasım 2026`
+* [Doom9tr İçin AviSynth Denoiser Analizi](articles/encoding/avisynth-denoiser-analysis-for-doom9tr.md) - *Eski AviSynth eklentileriyle film grenini ve kaynak gürültüsünü ele alan 2005 tarihli bir çalışma.* `15 Kasım 2026`
+
+Hazırlanan İçerikler
+
+Şu an Python, VapourSynth, qaac ve FFmpeg ile kurduğum video encoding pipeline'ı üzerine bir döküman derliyorum.
+
+*  **VapourSynth Otomasyonu:** FFmpeg ile dinamik kırpma ve işletim sistemi düzeyinde IPC (vspipe) mimarisi.
+*  **Modern Encoding:** Yüksek kaliteli HEVC/x265 kodlama iş akışları.
+
+*Ayrıntılı dokümantasyon ve proje kaynak kodları yakında burada yayınlanacak.* 
